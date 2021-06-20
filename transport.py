@@ -4,6 +4,7 @@ class Transport:
         self.name = None
         self.size = 1
         self.number = None
+        self.end_parking_time = None
 
 
 class Motorcycle(Transport):
