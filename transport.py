@@ -3,13 +3,14 @@ class Transport:
         self.dimensions = None
         self.name = None
         self.size = 1
+        self.number = None
 
 
 class Motorcycle(Transport):
     def __init__(self):
         super().__init__()
         self.dimensions = 1
-        self.name = 'Cycle'
+        self.name = 'Motorcycle'
 
 
 class Car(Transport):
